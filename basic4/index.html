@@ -7,9 +7,13 @@
     <title>부모자식관계</title>
 
     <style>
-        *{margin: 0; padding: 0;}
-        .전체{background-color: aqua;}
-        .전체 .첫째{}
+        *{margin: 0; padding: 0;}  /* 전체에 적용되는 css */
+        .전체{background-color: aqua; 
+              width: 500px; /* 넓이값 */}
+        /* 부모는 자식의 높이를 따라간다.
+        자식은 부모의 넓이를 따라간다. */
+        .전체 .첫째{background-color: pink;}
+        .전체 .둘째{}
         .전체 .둘째>.둘자{}
     </style>
 </head>
