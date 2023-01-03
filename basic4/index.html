@@ -65,7 +65,15 @@
             margin-top: 50px;
         }
 
+        .전체 .셋째::after {
+            /* clear: both;는 블럭요소에서만 효능이 발효 
+            :before, :after는 인라인요소 */
+            content: "";
+        }
+
         .전체 .셋째 .세자1 {
+            width: 50%;
+            float: left;
             background-color: darkblue;
         }
 
@@ -75,15 +83,17 @@
 
         .전체 .셋째 .세자1 span::before {
             /* css에서 공간을 만들수 있다. */
-            content: "";
+            content: "앞";
         }
 
         .전체 .셋째 .세자1 span::after {
             /* css에서 공간을 만들수 있다. */
-            content: "";
+            content: "뒤";
         }
 
         .전체 .셋째 .세자2 {
+            width: 50%;
+            float: left;
             background-color: yellowgreen;
         }
 
