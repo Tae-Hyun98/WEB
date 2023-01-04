@@ -112,6 +112,18 @@
 
 .박일수 .박셋째 {
     background-color: #ADA2FF;
+    margin-top: 30px;
 }
 
-.박일수 .박셋째{}
+.박일수 .박셋째>div {
+    background-color: green;
+    width: 33.3333%;
+    height: 200px;
+    float: left;
+}
+
+.박일수 .박셋째>div.세자식1 {}
+
+.박일수 .박셋째>div.세자식2 {}
+
+.박일수 .박셋째>div.세자식3 {}
