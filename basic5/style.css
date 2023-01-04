@@ -70,19 +70,24 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s;
+}
+
+.박일수 .박둘째>div.둘자식1:hover {
+    background-image: url(img5.png);
 }
 
 .박일수 .박둘째>div.둘자식2 {
     background: #ffb26b url(img2.png) no-repeat center;
     background-size: contain;
+    transition: 0.5s;
 }
 
-.박일수 .박둘째>div.둘자식2 {}
-
-.박일수 .박둘째>div.둘자식3 {
-    background: #ADA2FF url(img3.png) no-repeat center;
-    background-size: contain;
+.박일수 .박둘째>div.둘자식2:hover {
+    background-image: url(img4.png);
 }
+
+.박일수 .박둘째>div.둘자식3 {}
 
 .박일수 .박둘째>div.둘자식4 {
     margin-right: 0px;
