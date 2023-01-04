@@ -59,9 +59,10 @@
 
 .박일수 .박둘째>div {
     background-color: violet;
-    width: 25%;
+    width: 23.5%;
     float: left;
     height: 100px;
+    margin-right: 2%;
 }
 
 .박일수 .박둘째>div.둘자식1 {}
@@ -70,7 +71,9 @@
 
 .박일수 .박둘째>div.둘자식3 {}
 
-.박일수 .박둘째>div.둘자식4 {}
+.박일수 .박둘째>div.둘자식4 {
+    margin-right: -2px;
+}
 
 
 .박일수 .박셋째 {
