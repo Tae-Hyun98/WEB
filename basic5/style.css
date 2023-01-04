@@ -94,13 +94,16 @@
 
 .박일수 .박둘째>div.둘자식3 iframe {
     width: 100%;
-    height: 100%;
 }
 
 .박일수 .박둘째>div.둘자식4 {
+    overflow: hidden;
     margin-right: 0px;
 }
 
+.박일수 .박둘째>div.둘자식4 iframe {
+    width: 100%;
+}
 
 .박일수 .박셋째 {
     background-color: #ADA2FF;
