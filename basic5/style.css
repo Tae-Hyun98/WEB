@@ -77,6 +77,7 @@
 }
 
 .박일수 .박둘째>div.둘자식1:hover {
+    /* 마우스 올릴시 이미지변환코드 */
     background-image: url(img5.png);
     background-size: 100px;
     background-position: center center;
