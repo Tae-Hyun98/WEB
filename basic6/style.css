@@ -1,1 +1,20 @@
-.pp{color: blue;}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.박일수 {
+    background-color: #EB455F;
+}
+
+.박일수 .박첫째 {
+    background-color: aqua;
+}
+
+.박일수 .박둘째 {
+    background-color: #FFD4B2;
+}
+
+.박일수 .박셋째 {
+    background-color: #ADA2FF;
+}
