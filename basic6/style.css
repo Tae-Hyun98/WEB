@@ -11,6 +11,15 @@
     background-color: aqua;
 }
 
+.박일수 .박첫째 .자식.첫째자식1 {
+    background-color: red;
+}
+
+.박일수 .박첫째 .자식.첫째자식2 {
+    background-color: pink;
+}
+
+
 .박일수 .박둘째 {
     background-color: #FFD4B2;
 }
