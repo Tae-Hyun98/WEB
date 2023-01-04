@@ -1,22 +1,53 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 .박일수 {
     background-color: #EB455F;
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    padding: 20px 40px;
+    /* 상하 좌우 */
+    padding: 20px 40px 50px;
+    /* 상 좌우 하 */
+    padding: 20px 90px 50px 70px;
+    /* 상 우 하 좌 */
+    padding: 20px;
 }
 
 .박일수 .박첫째 {
     background-color: aqua;
+    padding: 20px;
 }
 
 .박일수 .박첫째 .자식.첫째자식1 {
     background-color: red;
+    float: left;
+    width: 50%;
 }
 
 .박일수 .박첫째 .자식.첫째자식2 {
     background-color: pink;
+    float: left;
+    width: 50%;
+}
+
+.박일수 .박첫째::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.박일수 .박첫째 .첫째자식1 span::before {
+    content: "";
+}
+
+.박일수 .박첫째 .첫째자식1 span::after {
+    content: "";
 }
 
 
