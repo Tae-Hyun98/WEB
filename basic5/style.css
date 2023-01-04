@@ -38,11 +38,11 @@
 .박일수 .박첫째 .자식.첫째자식1 {
     background-color: red;
     margin-right: 2%;
-    padding: 20px;
     box-sizing: border-box;
     /* box-sizing: border-box; --> width + padding + border를 영역안으로포함 */
     border: 5px solid yellow;
 }
+
 
 .박일수 .박첫째 .자식.첫째자식2 {
     background-color: pink;
