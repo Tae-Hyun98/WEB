@@ -4,3 +4,23 @@
     margin: 0;
     padding: 0;
 }
+
+.전체 {
+    background-color: gray;
+}
+
+.전체 .pink {
+    background-color: pink;
+}
+
+.전체 .green {
+    background-color: green;
+}
+
+.전체 .red {
+    background-color: red;
+}
+
+.전체 .blue {
+    background-color: blue;
+}
