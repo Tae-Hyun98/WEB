@@ -4,3 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
+
+.전체 {
+    background-color: #5bc0f8;
+    width: 1000px;
+}
+
+.전체 .첫째 {
+    background-color: #FFB26B;
+}
+
+.전체 .둘째 {
+    background-color: #c85c8e;
+}
