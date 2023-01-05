@@ -79,17 +79,24 @@
 .영역>div.포지션1 {
     margin-right: 2%;
     position: relative;
+    overflow: hidden;
 }
 
 .영역>div.포지션1 .포자 {
-    width: 100px;
-    height: 50px;
+    width: 0%;
+    height: 0%;
     background-color: pink;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.5s;
     /* transform: translate(x축, y축); %의 기준이 자기자신 */
+}
+
+.영역>div.포지션1:hover .포자 {
+    width: 120%;
+    height: 120%;
 }
 
 .space {
