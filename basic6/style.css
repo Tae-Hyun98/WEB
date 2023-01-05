@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal; /* 폰트두께 */
 }
 
+a{
+    text-decoration: none; /* a태그 밑줄 */
+    color: #223344; /* color:#234 */
+    /* color:#113345; 줄이지 못함 */
+} 
+
 .약::after {
     content: "";
     clear: both;
@@ -57,6 +63,16 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #c85c8e;
 }
 
+.전체 .둘째 .앵커{
+    background-color: blue;
+}
+
+.전체 .둘째 p{width: 150px;}
+.전체 .둘째 p a{width: 150px;}
+.전체 .둘째 p a img{width: 100%;}
+/* 인라인요소는 공간을 인식하지 못한다
+그래서 넓이, 높이값을 주어도 적용되지 않는다. 
+예외로는 img, button 태그는 인라인요소이지만 넓이와 높이가 적용된다. */
 .전체 .셋째 {
     background-color: #c85c8e;
 }
