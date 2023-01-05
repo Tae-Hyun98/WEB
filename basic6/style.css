@@ -44,9 +44,7 @@
     margin-right: 2%;
 }
 
-.전체 .첫째 .첫자.첫째자식2 {
-    margin-right: 0;
-}
+.전체 .첫째 .첫자.첫째자식2 {}
 
 .전체 .둘째 {
     background-color: #c85c8e;
