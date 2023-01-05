@@ -67,7 +67,7 @@ a{
     background-color: blue;
 }
 
-.전체 .둘째 p{width: 150px;}
+.전체 .둘째 p{width: 150px; margin-top: 20px;}
 
 .전체 .둘째 p a{}
 
@@ -78,7 +78,10 @@ a{
 
 인라인요소안에는 인라인요소만 들어간다.
 (인라인요소안에 블럭요소 들어가지 않음)
-블럭요소안에는 인라인요소, 블럭요소 모두 들어감 */
+블럭요소안에는 인라인요소, 블럭요소 모두 들어감 
+span p (x)
+p span (o)
+span img (o) */
 
 .전체 .셋째 {
     background-color: #c85c8e;
