@@ -5,6 +5,13 @@
     padding: 0px;
 }
 
+/* reset */
+/* 폰트크기의 기본값은 16px */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: normal; /* 폰트두께 */
+}
+
 .약::after {
     content: "";
     clear: both;
