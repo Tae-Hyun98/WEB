@@ -19,10 +19,16 @@
 
 .전체 .pink {
     background-color: pink;
+    position: static;
+    left: 50px;
 }
 
 .전체 .green {
     background-color: green;
+    position: relative;
+    /* 원래 자신의 위치를 기억
+    주위에 아무런 영향을 주지 않는다. */
+    left: 250px;
 }
 
 .전체 .red {
@@ -31,7 +37,8 @@
 
 .전체 .blue {
     position: fixed;
-    left: 50px;
+    /* 윈도우기준으로 배치 */
+    right: 150px;
     top: 100px;
     background-color: blue;
 }
