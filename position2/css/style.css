@@ -95,6 +95,13 @@
     background-position: center;
 }
 
+.전체 .첫째 .첫자.첫자2>div h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .전체 .첫째 .첫자.첫자2 .상 {
     background-image: url(../image/img3.jpg);
     /* z-index는 position이 있어야 사용가능
