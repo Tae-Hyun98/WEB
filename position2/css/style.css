@@ -65,7 +65,7 @@
     top: 0;
     left: 100%;
     width: 100%;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .전체 .첫째 .첫자.첫자1:hover .상 {
@@ -80,12 +80,32 @@
     transform: translate(-50%, -50%);
 }
 
-.전체 .첫째 .첫자.첫자2 {}
+.전체 .첫째 .첫자.첫자2 {
+    position: relative;
+}
+
+.전체 .첫째 .첫자.첫자2>div {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.전체 .첫째 .첫자.첫자2 .상 {
+    background-image: url(../image/img3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.전체 .첫째 .첫자.첫자2 .상 h4 {}
+
+.전체 .첫째 .첫자.첫자2 .하 {
+    background-image: url(../image/img4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.전체 .첫째 .첫자.첫자2 .하 h4 {}
 
 .전체 .첫째 .첫자.첫자3 {
     margin-right: 0;
-}
-
-.전체 .첫째 .첫자1 .첫자손 {
-    background-color: red;
 }
