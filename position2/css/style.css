@@ -107,7 +107,7 @@
     /* z-index는 position이 있어야 사용가능
     (relative, absolute, fixed) */
     z-index: 2;
-    top: 100%;
+    top: -100%;
     transition: 0.4s;
 }
 
