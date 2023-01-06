@@ -31,9 +31,12 @@
     height: 200px;
     float: left;
     margin-right: 2%;
+    position: relative;
 }
 
-.전체 .첫째 .첫자.첫자1 {}
+.전체 .첫째 .첫자.첫자1 {
+    position: relative;
+}
 
 .전체 .첫째 .첫자.첫자1 .하 {
     background-image: url(../image/img1.jpg);
@@ -50,14 +53,27 @@
     transform: translate(-50%, -50%);
 }
 
-.전체 .첫째 .첫자.첫자1 .상 {
+.전체 .첫째 .첫자.첫자1:hover .상 {
     background-image: url(../image/img2.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
+    /* position: absolute;되면 자식의 공간만 차지 
+    넓이 다시 설정해야한다.*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
 }
 
-.전체 .첫째 .첫자.첫자1 .상 h4 {}
+
+.전체 .첫째 .첫자.첫자1 .상 h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .전체 .첫째 .첫자.첫자2 {}
 
