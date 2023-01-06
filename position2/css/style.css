@@ -5,6 +5,40 @@
     padding: 0;
 }
 
+.치료::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .전체 {
     color: red;
+    width: 1000px;
+    margin: 0 auto 0;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.전체 .첫째 {
+    background-color: #B08BBB;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.전체 .첫째 .첫자 {
+    background-color: #3C79F5;
+    width: 33.3333%;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+}
+
+.전체 .첫째 .첫자.첫자1 {}
+
+.전체 .첫째 .첫자.첫자2 {}
+
+.전체 .첫째 .첫자.첫자3 {}
+
+.전체 .첫째 .첫자1 .첫자손 {
+    background-color: red;
 }
