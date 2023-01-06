@@ -14,9 +14,11 @@
 .전체 {
     color: red;
     width: 1000px;
+    height: 600px;
     margin: 0 auto 0;
     padding: 20px;
     margin-top: 30px;
+    background-color: gray;
 }
 
 .전체 .첫째 {
@@ -162,4 +164,18 @@
 
 .전체 .첫째 .첫자.첫자3 .하 {
     background-image: url(../image/img6.jpg);
+}
+
+.전체 .둘째 {
+    background-color: green;
+    /* %의 기준
+    width --> 부모(.전체)의 넓이
+    height --> 부모(.전체)의 높이 
+             !단 부모가 높이값이 있어야한다. 
+    padding, margin은 상하좌우 모두 부모의 넓이
+    */
+    width: 30%;
+    height: 30%;
+    padding: 5%;
+    margin-top: 5%;
 }
