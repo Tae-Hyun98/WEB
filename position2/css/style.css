@@ -50,18 +50,14 @@
     transform: translate(-50%, -50%);
 }
 
-.전체 .첫째 .첫자.첫자1:hover .상 {
+.전체 .첫째 .첫자.첫자1 .상 {
     background-image: url(../image/img2.jpg);
     background-size: cover;
+    background-position: center;
     height: 100%;
 }
 
-.전체 .첫째 .첫자.첫자1 .상 h4 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
+.전체 .첫째 .첫자.첫자1 .상 h4 {}
 
 .전체 .첫째 .첫자.첫자2 {}
 
