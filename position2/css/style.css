@@ -31,9 +31,6 @@
     height: 200px;
     float: left;
     margin-right: 2%;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
 }
 
 .전체 .첫째 .첫자.첫자1 {}
@@ -43,12 +40,27 @@
     background-size: cover;
     height: 100%;
     background-position: center;
+    position: relative;
 }
 
-.전체 .첫째 .첫자.첫자1:hover .하 h4 {
+.전체 .첫째 .첫자.첫자1 .하 h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.전체 .첫째 .첫자.첫자1:hover .상 {
     background-image: url(../image/img2.jpg);
     background-size: cover;
     height: 100%;
+}
+
+.전체 .첫째 .첫자.첫자1 .상 h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .전체 .첫째 .첫자.첫자2 {}
