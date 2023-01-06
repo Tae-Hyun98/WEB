@@ -138,11 +138,25 @@
     width: 100%;
 }
 
-.전체 .첫째 .첫자.첫자3>div h4 {}
+.전체 .첫째 .첫자.첫자3>div h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .전체 .첫째 .첫자.첫자3 .상 {
     background-image: url(../image/img5.jpg);
-    z-index: 2;
+    z-index: 10;
+    opacity: 0;
+    transform: scale(0.3);
+    transition: 0.3s;
+}
+
+.전체 .첫째 .첫자.첫자3:hover .상 {
+    opacity: 1;
+    transform: scale(1);
+    border-radius: 50%;
 }
 
 .전체 .첫째 .첫자.첫자3 .하 {
