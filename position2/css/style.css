@@ -107,6 +107,12 @@
     /* z-index는 position이 있어야 사용가능
     (relative, absolute, fixed) */
     z-index: 2;
+    top: 100%;
+    transition: 0.4s;
+}
+
+.전체 .첫째 .첫자.첫자2:hover .상 {
+    top: 0;
 }
 
 .전체 .첫째 .첫자.첫자2 .상 h4 {}
@@ -114,6 +120,7 @@
 .전체 .첫째 .첫자.첫자2 .하 {
     background-image: url(../image/img4.jpg);
 }
+
 
 .전체 .첫째 .첫자.첫자2 .하 h4 {}
 
