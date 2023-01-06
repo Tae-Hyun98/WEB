@@ -121,9 +121,30 @@
     background-image: url(../image/img4.jpg);
 }
 
-
 .전체 .첫째 .첫자.첫자2 .하 h4 {}
 
 .전체 .첫째 .첫자.첫자3 {
+    position: relative;
     margin-right: 0;
+}
+
+.전체 .첫째 .첫자.첫자3>div {
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.전체 .첫째 .첫자.첫자3>div h4 {}
+
+.전체 .첫째 .첫자.첫자3 .상 {
+    background-image: url(../image/img5.jpg);
+    z-index: 2;
+}
+
+.전체 .첫째 .첫자.첫자3 .하 {
+    background-image: url(../image/img6.jpg);
 }
