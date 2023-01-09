@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 .clear::after {
     content: "";
@@ -84,7 +84,7 @@
 
 #전체 .셋째자식 {
     background-color: #46c2cb;
-    padding: 20px;
+    
     margin-top: 30px;
 }
 
