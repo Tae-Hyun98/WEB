@@ -20,13 +20,25 @@
 #전체 .첫째자식 .첫째손자 {
     background-color: darkmagenta;
     height: 200px;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #전체 .첫째자식 .첫손2 {
     background-color: green;
+    opacity: 0;
+    /* 투명도 */
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
+    transition: 0.3s;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
+#전체 .첫째자식:hover .첫손2 {
+    opacity: 1;
 }
