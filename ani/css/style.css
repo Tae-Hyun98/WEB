@@ -63,7 +63,7 @@ body {
 }
 
 .box2:hover p {
-    transform: translateX(0);
+    transform: translateX(0%);
 }
 
 .box2 p.one {
