@@ -5,4 +5,18 @@
     padding: 0;
 }
 
-#전체{}
+#전체 {
+    background-color: coral;
+    padding: 20px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#전체 .첫째자식 {
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+#전체 .첫째자식 .첫째손자 {
+    background-color: darkmagenta;
+}
