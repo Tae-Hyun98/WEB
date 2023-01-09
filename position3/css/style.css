@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
-/* * {
+* {
     margin: 0;
     padding: 0;
-} */
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
 
 .clear::after {
     content: "";
@@ -102,4 +108,8 @@
 
 #전체 .셋째자식>div ul {
     list-style-type: circle;
+}
+
+#전체 .셋째자식>div li {
+    border: 1px solid gray;
 }
