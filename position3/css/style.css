@@ -14,9 +14,19 @@
 
 #전체 .첫째자식 {
     background-color: chartreuse;
-    padding: 20px;
+    position: relative;
 }
 
 #전체 .첫째자식 .첫째손자 {
     background-color: darkmagenta;
+    height: 200px;
+}
+
+#전체 .첫째자식 .첫손2 {
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
 }
