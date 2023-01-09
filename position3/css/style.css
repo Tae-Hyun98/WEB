@@ -14,6 +14,10 @@
 
 #전체 .첫째자식 {
     background-color: chartreuse;
+    padding: 20px;
+}
+
+#전체 .첫째자식 .wrap {
     position: relative;
 }
 
