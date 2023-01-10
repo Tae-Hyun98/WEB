@@ -123,3 +123,23 @@ body {
         left: 500px;
     }
 }
+
+.box4 {
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: blue;
+    color: #fff;
+
+    animation-name: box_ani2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes box_ani2 {}
