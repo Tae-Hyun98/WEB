@@ -198,7 +198,7 @@ body {
     background-color: blueviolet;
     position: absolute;
     left: 55%;
-    top: 20%;
+    top: 35%;
     padding: 20px 30px;
     font-size: 40px;
     color: #fff;
@@ -206,3 +206,17 @@ body {
     /* deg는 degree의 약자 각도 */
     transform-origin: left center;
 }
+
+.box5>div.child_2 {
+    position: relative;
+}
+
+.box5>div.child_2 .top {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.box5>div.child_2 .top>div {}
