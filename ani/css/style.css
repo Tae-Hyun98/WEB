@@ -90,8 +90,12 @@ body {
     text-align: center;
     line-height: 100px;
     margin-top: 50px;
+
+    /* 애니메이션의 이름, keyframes의 이름과 반드시 동일 */
     animation-name: box_ani;
-    animation-duration: 5s;
+    /* 애니메이션의 지속시간,s는 초를 나타냄 */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     position: relative;
 }
 
@@ -104,6 +108,6 @@ body {
 
     /* 도착지점 */
     to {
-        left: 800px;
+        left: 500px;
     }
 }
