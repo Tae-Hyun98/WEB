@@ -95,6 +95,7 @@ body {
     animation-name: box_ani;
     /* 애니메이션의 지속시간,s는 초를 나타냄 */
     animation-duration: 3s;
+    /* 애니메이션의 반복횟수, infinite는 무한반복 */
     animation-iteration-count: infinite;
     position: relative;
 }
