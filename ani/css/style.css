@@ -125,6 +125,7 @@ body {
 }
 
 .box4 {
+    margin: 100px 0 400px;
     font-size: 30px;
     text-align: center;
     width: 100px;
@@ -133,13 +134,35 @@ body {
     background-color: blue;
     color: #fff;
 
-    animation-name: box_ani2;
+    /* animation-name: box_ani2;
     animation-duration: 4s;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-direction: normal;
     animation-delay: 1s;
     animation-timing-function: linear;
-    animation-fill-mode: both;
+    animation-fill-mode: both; */
+
+    animation: box_ani2 4s linear 1s infinite;
 }
 
-@keyframes box_ani2 {}
+@keyframes box_ani2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(200px, 0);
+    }
+
+    50% {
+        transform: translate(200px, 200px);
+    }
+
+    75% {
+        transform: translate(0, 200px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
