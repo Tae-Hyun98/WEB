@@ -84,4 +84,26 @@ body {
 .box3 {
     background-color: chocolate;
     font-size: 30px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 50px;
+    animation-name: box_ani;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes box_ani {
+
+    /* 시작지점 */
+    from {
+        left: 0;
+    }
+
+    /* 도착지점 */
+    to {
+        left: 800px;
+    }
 }
