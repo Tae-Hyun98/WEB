@@ -209,6 +209,7 @@ body {
 
 .box5>div.child_2 {
     position: relative;
+    perspective: 600px;
 }
 
 .box5>div.child_2 .top {
@@ -217,6 +218,31 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #222;
+    transform-style: preserve-3d;
+
 }
 
-.box5>div.child_2 .top>div {}
+.box5>div.child_2 .top>div {
+    transform: translateY(100%) rotateX(-80deg);
+    transform-origin: center top;
+    transition: 0.8s cubic-bezier(0.13, 0.21, 0.11, 1.06);
+    opacity: 0;
+}
+
+.box5>div.child_2:hover .top>div {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.2s;
+}
+
+.box5>div.child_2:hover .top>div:first-child {
+    /* top의 자식중 첫째 */
+}
+
+.box5>div.child_2:hover .top>div:last-child {
+    /* top의 자식중 막내 */
+    transition-delay: 0.4s;
+}
