@@ -167,6 +167,26 @@ body {
     }
 }
 
-.box5 {}
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
-.box5>div {}
+.box5 {
+    width: 1000px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 0 auto 0;
+}
+
+.box5>div {
+    float: left;
+    width: 49%;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+.box5>div.child_1 {
+    margin-right: 2%;
+}
