@@ -178,6 +178,7 @@ body {
     background-color: antiquewhite;
     padding: 20px;
     margin: 0 auto 0;
+    perspective: 600px;
 }
 
 .box5>div {
@@ -189,4 +190,19 @@ body {
 
 .box5>div.child_1 {
     margin-right: 2%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.box5>div.child_1 .ro {
+    background-color: blueviolet;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    padding: 20px 30px;
+    font-size: 40px;
+    color: #fff;
+    transform: translateZ(300px) rotateY(45deg);
+    /* deg는 degree의 약자 각도 */
+    transform-origin: left center;
 }
