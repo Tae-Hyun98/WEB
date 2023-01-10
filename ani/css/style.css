@@ -97,20 +97,24 @@ body {
     animation-duration: 3s;
     /* 애니메이션의 반복횟수, infinite는 무한반복 */
     animation-iteration-count: 3;
-    /* 애니메이션의 방향/ 기본값은 nomarl/ alternate는 앞뒤왔다갔다 */
-    animation-direction: alternate;
+    /* 애니메이션의 방향/ 기본값은 normal/ alternate는 앞뒤왔다갔다 */
+    animation-direction: normal;
+    /* 애니메이션의 지연시간 */
+    animation-delay: 1s;
+    /* 애니메이션 가속도 */
+    animation-timing-function: linear;
     position: relative;
 }
 
 @keyframes box_ani {
 
-    /* 시작지점 */
-    from {
+    /* 시작지점 from */
+    0% {
         left: 0;
     }
 
-    /* 도착지점 */
-    to {
+    /* 도착지점 to */
+    100% {
         left: 500px;
     }
 }
