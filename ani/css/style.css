@@ -142,7 +142,7 @@ body {
     animation-timing-function: linear;
     animation-fill-mode: both; */
 
-    animation: box_ani2 4s linear 1s infinite;
+    animation: box_ani2 4s linear 1s 2 both;
 }
 
 @keyframes box_ani2 {
@@ -151,18 +151,22 @@ body {
     }
 
     25% {
-        transform: translate(200px, 0);
+        transform: translate(300px, 0);
     }
 
     50% {
-        transform: translate(200px, 200px);
+        transform: translate(300px, 200px);
     }
 
     75% {
-        transform: translate(0, 200px);
+        transform: translate(100px, 200px);
     }
 
     100% {
-        transform: translate(0, 0);
+        transform: translate(100px, 0);
     }
 }
+
+.box5 {}
+
+.box5>div {}
