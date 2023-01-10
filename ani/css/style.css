@@ -103,6 +103,11 @@ body {
     animation-delay: 1s;
     /* 애니메이션 가속도 */
     animation-timing-function: linear;
+    /* 애니메이션의 처음과 끝의 상태 
+        forwards는 애니가 끝난 상태에서 멈춤
+        backwards는 시작을 keyframes의 0%인 상태로부터 시작
+        both= frowards + backwards*/
+    animation-fill-mode: both;
     position: relative;
 }
 
@@ -110,7 +115,7 @@ body {
 
     /* 시작지점 from */
     0% {
-        left: 0;
+        left: 100px;
     }
 
     /* 도착지점 to */
