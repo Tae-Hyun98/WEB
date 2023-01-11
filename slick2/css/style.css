@@ -4,3 +4,15 @@
     margin: 0;
     padding: 0;
 }
+
+.wrap {}
+
+.wrap .container {}
+
+.wrap .container .slick .slick-slide{
+    height: 200px;
+}
+
+.wrap .container .slick .slick-slide>img{
+    width: 100%;
+}
