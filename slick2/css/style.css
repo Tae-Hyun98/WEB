@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+left::after {}
+
+li,
+ul,
+ol {
+    list-style: none;
+}
+
 .wrap {}
 
 .wrap .container {
@@ -35,11 +43,12 @@
 }
 
 .wrap .container .slick .slick-prev::after {
-    content: "\f060";
+    content: "\f053";
     visibility: visible;
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 700;
     font-size: 48px;
+    color: #fff;
 }
 
 .wrap .container .slick .slick-next {
@@ -47,9 +56,22 @@
 }
 
 .wrap .container .slick .slick-next::after {
-    content: "\f061";
+    content: "\f054";
     visibility: visible;
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 700;
     font-size: 48px;
+    color: #fff;
 }
+
+.wrap .container .slick .slick-dots {
+    text-align: center;
+}
+
+.wrap .container .slick .slick-dots li {
+    display: inline;
+    /* inline요소는 padding과 margin의 좌우는 적용되서 상하는 적용XX */
+    margin: 0 5px;
+}
+
+.wrap .container .slick .slick-dots li button {}
