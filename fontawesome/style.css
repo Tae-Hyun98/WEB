@@ -5,6 +5,14 @@
     padding: 0;
 }
 
-i{font-size: 30px;}
+/* slick에서 이미지폰트쓰는 방법 */
+.section::after {
+    content: "\f03d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 200px;
+}
 
-
+i {
+    font-size: 200px;
+}
