@@ -7,12 +7,19 @@
 
 .wrap {}
 
-.wrap .container {}
+.wrap .container {
+    width: 800px;
+    margin: 0 auto;
+}
 
-.wrap .container .slick .slick-slide{
+.wrap .container .slick .slick-slide {
     height: 200px;
 }
 
-.wrap .container .slick .slick-slide>img{
+.wrap .container .slick .slick-slide img {
+    width: 100%;
+}
+
+.wrap .container .slick-prev {
     width: 100%;
 }
