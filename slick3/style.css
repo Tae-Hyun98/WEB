@@ -16,7 +16,7 @@
     height: 500px;
 }
 
-.wrap .main .your-class .slick-slider{
+.wrap .main .your-class .slick-slider {
     height: 500px;
 }
 
@@ -26,10 +26,34 @@
 
 .wrap .main .your-class .slick-arrow {
     position: absolute;
-    top: calc(100% - 250px);
-    left: calc(100% - 500px);
+    top: calc(50% - 10px);
+    /* 폰트의 기본값은 16px
+    크롬에서는 최소폰트크기가 10px이기때문에
+    8px -> 적용이 안됨 */
+    font-size: 0;
+
 }
 
-.wrap .main .your-class .slick-prev {}
+.wrap .main .your-class .slick-prev {
+    z-index: 5;
+    left: 5%;
+}
 
-.wrap .main .your-class .slick-next {}
+.wrap .main .your-class .slick-next {
+    right: 5%;
+}
+
+.wrap .main .your-class .slick-prev::after {
+    content: "\f053";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    z-index: 6;
+    font-size: 30px;
+}
+
+.wrap .main .your-class .slick-next::after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+}
