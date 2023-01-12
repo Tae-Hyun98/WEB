@@ -31,7 +31,7 @@
     크롬에서는 최소폰트크기가 10px이기때문에
     8px -> 적용이 안됨 */
     font-size: 0;
-
+    visibility: hidden;
 }
 
 .wrap .main .your-class .slick-prev {
@@ -47,8 +47,9 @@
     content: "\f053";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    z-index: 6;
     font-size: 30px;
+    visibility: visible;
+    color: #fff;
 }
 
 .wrap .main .your-class .slick-next::after {
@@ -56,4 +57,6 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 30px;
+    visibility: visible;
+    color: #fff;
 }
