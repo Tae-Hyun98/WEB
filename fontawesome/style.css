@@ -28,10 +28,11 @@ i {
 
 .wrap2 .section2 {
     position: absolute;
+    /* transform: translate(-50%, -50%); */
     left: calc(50% - 50px);
     top: calc(50% - 50px);
     width: 100px;
     height: 100px;
     background-color: blue;
-    /* transform: translate(-50%, -50%); */
+
 }
