@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 .wrap {
     width: 1000px;
     margin: 100px auto 0;
@@ -59,4 +63,29 @@
     font-size: 30px;
     visibility: visible;
     color: #fff;
+}
+
+.wrap .main .your-class .slick-dots {
+    text-align: center;
+}
+
+.wrap .main .your-class .slick-dots li {
+    display: inline-block;
+    margin: 20px 5px 0;
+}
+
+.wrap .main .your-class .slick-dots li button {
+    border: none;
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.wrap .main .your-class .slick-dots li.slick-active button {
+    background-color: aqua;
+    width: 20px;
+    border-radius: 8px;
 }
